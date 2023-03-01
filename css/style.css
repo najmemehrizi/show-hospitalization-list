@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "yekan";
+  src: url(../font/Yekan.ttf) format("truetype"), url(../font/Yekan.eot?#iefix) format("embedded.opentype"); }
+
+body {
+  background-color: #F2F5F5;
+  text-align: right;
+  direction: rtl;
+  margin: 0;
+  list-style-type: none;
+  overflow-x: hidden !important;
+  font-family: "yekan"; }
+  body .contain {
+    padding: 20px; }
+    body .contain .title1 {
+      margin-top: 30px;
+      font-size: 16.3pt;
+      margin-right: 30px;
+      display: block; }
+    body .contain .content {
+      margin-right: 20px;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      body .contain .content .services {
+        height: 193px;
+        width: 271px;
+        background-color: #ffffff;
+        border-radius: 15px;
+        margin: 10px;
+        padding-top: 16px; }
+        body .contain .content .services .img1 {
+          width: 69px;
+          height: 69px;
+          display: block;
+          text-align: center;
+          margin-right: 100px;
+          margin-top: 20px; }
+        body .contain .content .services .img2 {
+          width: 40px;
+          height: 40px;
+          display: block;
+          margin-top: 35px;
+          margin-right: 77px; }
+        body .contain .content .services span {
+          font-size: 16.3pt;
+          padding-top: 40px;
+          display: block;
+          text-align: center; }

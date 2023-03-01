@@ -1,0 +1,85 @@
+$gray-100: #F2F5F5;
+$blue-600: #005CBF;
+$blue-200: #EBF2FA;
+$white: #ffffff;
+$black: #000000;
+$fontsm: 10.3pt;
+$fontmd: 11.3pt;
+$fontlg: 16.3pt;
+
+@font-face {
+   font-family: "yekan";
+   src: url(../font/Yekan.ttf) format("truetype"),
+      url(../font/Yekan.eot?#iefix) format("embedded.opentype");
+}
+
+
+
+body {
+   background-color: $gray-100;
+   text-align: right;
+   direction: rtl;
+   margin: 0;
+   list-style-type: none;
+   overflow-x: hidden !important;
+   font-family: "yekan";
+
+   .contain {
+
+      padding: 20px;
+
+      .title1 {
+         margin-top: 30px;
+         font-size: $fontlg;
+         margin-right: 30px;
+         display: block;
+
+      }
+
+      .content {
+         margin-right: 20px;
+         margin-top: 40px;
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;
+
+
+         .services {
+            height: 193px;
+            width: 271px;
+            background-color: $white;
+            border-radius: 15px;
+            margin: 10px;
+            padding-top: 16px;
+           
+            .img1 {
+               width: 69px;
+               height: 69px;
+               display: block;
+               text-align: center;
+               margin-right: 100px;
+               margin-top: 20px;
+            }
+            .img2 {
+               width: 40px;
+               height: 40px;
+               display: block;
+               
+               margin-top: 35px;
+               margin-right: 77px
+              
+              
+            }
+
+            span {
+               font-size: $fontlg;
+               padding-top: 40px;
+               display: block;
+               text-align: center;
+            }
+
+
+         }
+      }
+   }
+}
